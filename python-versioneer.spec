@@ -2,7 +2,7 @@
 # Conditional build:
 %bcond_with	tests	# unit tests (FIXME)
 %bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
+%bcond_with	python3 # CPython 3.x module (built from python3-versioneer.spec)
 
 Summary:	Easy VCS-based management of project version strings
 Summary(pl.UTF-8):	Łatwe, oparte o VCS zarządzanie łańcuchami wersji projektu
